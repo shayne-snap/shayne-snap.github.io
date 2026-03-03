@@ -1,0 +1,14 @@
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    if (!document.querySelector('.mermaid')) return;
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js';
+    script.defer = true;
+    script.onload = function () {
+      if (window.mermaid) {
+        window.mermaid.initialize({ startOnLoad: true });
+      }
+    };
+    document.head.appendChild(script);
+  });
+</script>
