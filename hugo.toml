@@ -13,6 +13,9 @@ theme = 'PaperMod'
   hideAuthor = true
   mainSections = ["posts"]
 
+  [params.assets]
+    favicon = "favicon.svg"
+
   [params.homeInfoParams]
     Title = "Hi, I'm Shayne"
     Content = "I'm messing with AI and Rust."
