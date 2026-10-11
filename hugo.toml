@@ -18,7 +18,7 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
     Title = "Hi, I'm Shayne"
-    Content = "I'm messing with AI and Rust."
+    Content = "Building http://wirebox.sh The identity and communication layer for AI agents."
 
   [params.author]
     name = 'Shayne'
